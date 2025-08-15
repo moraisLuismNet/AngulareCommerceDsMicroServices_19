@@ -86,8 +86,7 @@ AngulareCommerceDsMicroServices_19/
 │   ├───app.component.css    
 │   ├───app.component.html    
 │   ├───app.component.ts  
-│   ├───app.config.ts  
-│   └───app-routing.module.ts  
+│   └───app.routes.ts    
 ├───environments/  
 │   ├───environment.development.ts  
 │   └───environment.ts  
