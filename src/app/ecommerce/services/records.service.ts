@@ -120,7 +120,9 @@ export class RecordsService {
   }
 
   addRecord(record: IRecord): Observable<IRecord> {
-    const headers = this.getHeaders();
+    const headers = new HttpHeaders({
+      Authorization: `Bearer ${this.authGuard.getToken()}`
+    });
     const formData = new FormData();
     formData.append("titleRecord", record.titleRecord);
     if (record.yearOfPublication !== null) {

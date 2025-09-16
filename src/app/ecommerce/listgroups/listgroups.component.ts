@@ -31,7 +31,6 @@ import { IGroup } from '../ecommerce.interface';
         // Shared components are already standalone
     ],
     templateUrl: './listgroups.component.html',
-    styleUrls: ['./listgroups.component.css'],
     providers: [ConfirmationService]
 })
 export class ListgroupsComponent implements OnInit, OnDestroy {

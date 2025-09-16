@@ -26,8 +26,7 @@ import { IOrder } from '../ecommerce.interface';
         TableModule,
         ButtonModule
     ],
-    templateUrl: './orders.component.html',
-    styleUrls: ['./orders.component.css']
+    templateUrl: './orders.component.html'
 })
 export class OrdersComponent implements OnDestroy {
   orders: IOrder[] = [];

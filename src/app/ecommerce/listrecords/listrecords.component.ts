@@ -47,7 +47,6 @@ import { IRecord } from "../ecommerce.interface";
         // Shared components are already standalone
     ],
     templateUrl: "./listrecords.component.html",
-    styleUrls: ["./listrecords.component.css"],
     providers: [ConfirmationService]
 })
 export class ListrecordsComponent implements OnInit, OnDestroy {

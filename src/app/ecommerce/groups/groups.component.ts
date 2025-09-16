@@ -32,7 +32,6 @@ import { IGroup } from '../ecommerce.interface';
         TooltipModule
     ],
     templateUrl: './groups.component.html',
-    styleUrls: ['./groups.component.css'],
     providers: [ConfirmationService]
 })
 export class GroupsComponent implements OnInit, OnDestroy {
@@ -56,7 +55,7 @@ export class GroupsComponent implements OnInit, OnDestroy {
     nameGroup: '',
     imageGroup: null,
     photo: null,
-    musicGenreId: 0,
+    musicGenreId: null,
     musicGenreName: '',
     musicGenre: '',
   };

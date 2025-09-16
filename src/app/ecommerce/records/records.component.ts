@@ -43,7 +43,6 @@ import { IRecord } from "../ecommerce.interface";
         ConfirmDialogModule
     ],
     templateUrl: "./records.component.html",
-    styleUrls: ["./records.component.css"],
     providers: [ConfirmationService]
 })
 export class RecordsComponent implements OnInit, OnDestroy {

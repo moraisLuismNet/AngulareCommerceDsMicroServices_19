@@ -13,7 +13,7 @@
             id="group"
             style="font-size: 0.9rem"
           >
-            <option value="">Select a Group</option>
+            <option [value]="null">Select a Group</option>
             @for (group of groups; track group.idGroup) {
               <option [value]="group.idGroup">{{ group.nameGroup }}</option>
             }

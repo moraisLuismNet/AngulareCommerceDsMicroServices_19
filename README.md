@@ -1,7 +1,7 @@
 ## AngulareCommerceDsMicroServices_19
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
 
-**AngulareCommerceDsMicroServices_19** is an e-commerce application developed with Angular. Its main purpose is to allow users to browse and purchase albums from different musical groups and genres, as well as manage their orders and shopping carts. The application has two main areas of functionality: one for general users and one for administrators. For general users (Registration and Login, Product Navigation, Shopping Cart, and Order Management). For administrators (Genre Management, Group Management, Album Management, User Management, Order Management (Admin), and Cart Management (Admin). 
+**AngulareCommerceDsMicroServices_19** is an e-commerce application developed with Angular. Its main purpose is to allow users to browse and purchase albums from different musical groups and genres, as well as manage their orders and shopping carts. The application has two main areas of functionality: one for general users and one for administrators. For general users (Registration and Login, Product Navigation, Shopping Cart, and Order Management). For administrators Genre Management, Group Management, Album Management, User Management, Order Management (Admin), and Cart Management (Admin). 
 
 ![AngulareCommderceDs](img/UML.png)
 
@@ -21,27 +21,21 @@ AngulareCommerceDsMicroServices_19/
 │   │   │   ├───carts.component.html  
 │   │   │   └───carts.component.ts  
 │   │   ├───genres/  
-│   │   │   ├───genres.component.css  
 │   │   │   ├───genres.component.html    
 │   │   │   └───genres.component.ts  
 │   │   ├───groups/  
-│   │   │   ├───groups.component.css  
 │   │   │   ├───groups.component.html    
 │   │   │   └───groups.component.ts  
 │   │   ├───listgroups/  
-│   │   │   ├───listgroups.component.css  
 │   │   │   ├───listgroups.component.html    
 │   │   │   └───listgroups.component.ts  
 │   │   ├───listrecords/  
-│   │   │   ├───listrecords.component.css  
 │   │   │   ├───listrecords.component.html    
 │   │   │   └───listrecords.component.ts  
 │   │   ├───orders/  
-│   │   │   ├───orders.component.css   
 │   │   │   ├───orders.component.html  
 │   │   │   └───orders.component.ts  
 │   │   ├───records/  
-│   │   │   ├───records.component.css  
 │   │   │   ├───records.component.html    
 │   │   │   └───records.component.ts  
 │   │   ├───services/  
@@ -54,7 +48,6 @@ AngulareCommerceDsMicroServices_19/
 │   │   │   ├───stock.service.ts  
 │   │   │   └───users.service.ts  
 │   │   ├───users/  
-│   │   │   ├───users.component.css  
 │   │   │   ├───users.component.html    
 │   │   │   └───users.component.ts  
 │   │   ├───ecommerce.component.html  
@@ -76,7 +69,6 @@ AngulareCommerceDsMicroServices_19/
 │   │   │   ├───login.component.html  
 │   │   │   └───login.component.ts  
 │   │   ├───navbar/  
-│   │   │   ├───navbar.component.css   
 │   │   │   ├───navbar.component.html      
 │   │   │   └───navbar.component.ts  
 │   │   ├───register/  
@@ -90,6 +82,7 @@ AngulareCommerceDsMicroServices_19/
 ├───environments/  
 │   ├───environment.development.ts  
 │   └───environment.ts  
+├───main.ts    
 ├───angular.json  
 └───package.json  
 
